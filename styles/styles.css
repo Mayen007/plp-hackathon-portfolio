@@ -142,6 +142,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-decoration: none;
 }
 
 .nav-menu {
@@ -839,6 +840,16 @@ body {
 
 .contact-item p {
   color: var(--text-light);
+}
+
+.reach-me {
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+.reach-me:hover {
+  color: var(--primary);
+  text-decoration: underline;
 }
 
 .contact-form {
