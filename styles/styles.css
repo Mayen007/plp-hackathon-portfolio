@@ -989,6 +989,35 @@ body {
     left: 0;
   }
 
+  /* Mobile-friendly project overlay - always visible */
+  .project-overlay {
+    opacity: 1;
+    position: static;
+    background: transparent;
+    padding: var(--space-sm);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .project-link {
+    padding: var(--space-sm) var(--space-md);
+    font-size: 0.9rem;
+    text-align: center;
+    min-width: 120px;
+  }
+
+  .project-image {
+    height: auto;
+    padding: var(--space-md);
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .project-emoji {
+    font-size: var(--space-xl);
+  }
+
   .hero-content,
   .about-content,
   .education-content,
