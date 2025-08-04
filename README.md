@@ -92,7 +92,6 @@ plp-hackathon-portfolio/
 
 - **Subtle**: Enhance UX without being distracting
 - **Performance**: CSS-only animations for optimal performance
-- **Accessibility**: Respect `prefers-reduced-motion` media query
 - **Purpose**: Each animation serves a functional purpose
 
 ## 🔧 Setup & Development
